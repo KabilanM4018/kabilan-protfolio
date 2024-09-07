@@ -1,5 +1,3 @@
-
-
 * {
   margin: 0;
   padding: 0;
@@ -166,8 +164,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  top: 20%;
-  left: 70%;
+  top: 27%;
+  left: 68%;
   bottom: 15%;
   margin-right: 5%;
   padding: 0;
@@ -179,21 +177,11 @@ body {
   animation: slideUP 1s ease forwards;
   animation-delay: 1s;
 }
-.img {
-  max-width: 100;
-  height: auto;
-  border-radius: 50%;
 
-}
-
-.responsive {
-  width: 100%;
+.img img{
+  width:350px;
   height: auto;
-  display: auto;
-  border-top-left-radius: 251px;
-  border-top-right-radius: 251px;
-  border-bottom-left-radius: 251px;
-  border-bottom-right-radius: 251px;
+  border-radius: 15%;
 }
 
 /*about*/
@@ -273,15 +261,16 @@ body {
 
 
 /* Skills */
-#Skills{
+#Skills {
   background-color: #000;
 }
+
 .subtitle {
   text-align: center;
   font-size: 60px;
   padding-bottom: 10px;
   padding-top: 70px;
-  
+
 }
 
 .subtitle span {
@@ -300,6 +289,7 @@ body {
   padding: 10px;
   margin-left: 100px;
 }
+
 .container2 {
   width: 600px;
   max-height: 500px;
@@ -517,9 +507,10 @@ body {
 }
 
 /*projects*/
-#Projects{
+#Projects {
   background-color: #000;
 }
+
 .main-text {
   padding-top: 50px;
   margin-top: 10px;
@@ -623,7 +614,7 @@ body {
 
 /* Service*/
 
-#Services{
+#Services {
   background-color: #000;
 }
 
@@ -789,7 +780,7 @@ body {
   box-shadow: 0 0 20px #0ef;
 }
 
-.last-text p{
+.last-text p {
   width: 100%;
   text-align: center;
   padding: 25px;
@@ -797,7 +788,8 @@ body {
   font-weight: 300;
   margin-top: 0px;
 }
-.top{
+
+.top {
   position: fixed;
   bottom: 2.1rem;
   left: 1rem;
@@ -806,13 +798,13 @@ body {
   transition: all .4s;
 }
 
-.top.active{
+.top.active {
   bottom: 32px;
   pointer-events: auto;
   opacity: 1;
 }
 
-.top i{
+.top i {
   color: black;
   background: #0ef;
   font-size: 20px;
@@ -822,7 +814,7 @@ body {
 
 .top i:hover {
   box-shadow: 0 0 5px cyan,
-  0 0 25px cyan, 0 0 50px cyan,0 0 200px cyan;
+      0 0 25px cyan, 0 0 50px cyan, 0 0 200px cyan;
 }
 
 
@@ -919,89 +911,100 @@ body {
 }
 
 @media (max-width: 900px) and (min-width: 700px) {
-  .header{
-      display:block;
+  .header {
+      display: block;
   }
+
   .logo {
       position: relative;
       font-size: 30px;
       font-weight: 500;
       text-align: center;
   }
-  .logo::after{
+
+  .logo::after {
       content: "\a";
       white-space: pre;
   }
+
   .navbar a {
       font-size: 25px;
       font-weight: 200;
       margin-left: 0px;
       padding: 10px 10px 0 0;
   }
-  .navbar a::after{
+
+  .navbar a::after {
       content: "\a";
       white-space: pre;
   }
-  
+
 }
 
 @media (max-width: 700px) and (min-width: 400px) {
-  *{
+  * {
       overflow-x: hidden;
       overflow-y: inherit;
   }
+
   /*navbar*/
-  .header{
-      display:block;
-      
+  .header {
+      display: block;
+
   }
+
   .logo {
       position: relative;
       font-size: 20px;
       font-weight: 500;
       text-align: center;
   }
-  .logo::after{
+
+  .logo::after {
       content: "\a";
       white-space: pre;
   }
+
   .navbar a {
       font-size: 15px;
       font-weight: 200;
       margin-left: 0px;
       padding: 10px 10px 0 0;
   }
-  .navbar a::after{
+
+  .navbar a::after {
       content: "\a";
       white-space: pre;
   }
 
   /*home*/
-  .home{
+  .home {
       align-items: normal;
       padding-top: 40%;
       padding-bottom: 0;
   }
+
   .home-content h1 {
       font-size: 40px;
       font-weight: 600;
   }
-  
+
   .home-content h3 {
       font-size: 30px;
       font-weight: 300;
   }
-  
+
   .home-content h4 {
       font-size: 18px;
       font-weight: 200;
   }
-  
+
   .home-content h4 span {
       font-size: 18px;
       font-weight: 200;
   }
-  .img{
+
+  .img {
       max-width: 400px;
       position: relative;
       left: -10%;
@@ -1010,19 +1013,22 @@ body {
       padding-left: 0;
       margin-left: 0;
   }
+
   .btn-box:hover {
       box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
   }
+
   /*about*/
-  .about{
+  .about {
       padding-bottom: 20px;
       min-height: auto;
   }
+
   .about-text h2 {
       font-size: 30px;
       letter-spacing: 5px;
   }
-  
+
   .about-text p {
       font-size: 15px;
       line-height: normal;
@@ -1030,40 +1036,48 @@ body {
       margin-bottom: 4rem;
       text-align: left;
   }
+
   .abtbtn-box:hover {
       box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
   }
 
   /*skills*/
-  .subtitle{
+  .subtitle {
       font-size: 50px;
       text-align: center;
   }
+
   .container1 {
       width: 600px;
       max-height: 500px;
       padding: 20px;
       margin-left: 50px;
   }
+
   .container2 {
       width: 600px;
       max-height: 500px;
       padding: 10px;
       margin-left: 0px;
   }
-  .bar .info .addhtml::before{
+
+  .bar .info .addhtml::before {
       content: "90%";
   }
-  .bar .info .addcss::before{
+
+  .bar .info .addcss::before {
       content: "80%";
   }
-  .bar .info .addpy::before{
+
+  .bar .info .addpy::before {
       content: "75%";
   }
-  .bar .info .addjava::before{
+
+  .bar .info .addjava::before {
       content: "50%";
   }
-  .bar .info .addc::before{
+
+  .bar .info .addc::before {
       content: "80%";
   }
 
@@ -1073,31 +1087,37 @@ body {
       margin-top: 10px;
       padding-bottom: 50px;
   }
+
   .main-text h2 {
       font-size: 50px;
       padding-bottom: 15px;
   }
+
   .layer p {
       line-height: normal;
   }
+
   /*service*/
   .sub-title {
       font-size: 50px;
       padding-bottom: 50px;
   }
-  .prj-list div{
+
+  .prj-list div {
       padding: 20px;
   }
+
   /*contact*/
-  .contacts h2{
+  .contacts h2 {
       font-size: 50px;
   }
-  .contact-list i{
+
+  .contact-list i {
       font-size: 15px;
       padding: 5px 5px 0 0;
   }
-  
-  .top{
+
+  .top {
       position: fixed;
       bottom: 2rem;
       left: 1rem;
@@ -1108,87 +1128,102 @@ body {
       opacity: 0;
       transition: all .4s;
   }
-  
+
 }
 
 @media (max-width: 400px) {
-  *{
+  * {
       overflow-x: hidden;
   }
-  .header{
-      display:block;
+
+  .header {
+      display: block;
   }
+
   .logo {
       position: relative;
       font-size: 20px;
       font-weight: 500;
       text-align: center;
   }
-  .logo::after{
+
+  .logo::after {
       content: "\a";
       white-space: pre;
   }
+
   .navbar a {
       font-size: 13px;
       font-weight: 200;
       margin-left: 0px;
       padding: 10px 4px 0 0;
   }
-  .navbar a::after{
+
+  .navbar a::after {
       content: "\a";
       white-space: pre;
   }
 
   /*home*/
-  .home{
+  .home {
       width: 100%;
       align-items: normal;
       padding-top: 40%;
       padding-bottom: 0;
   }
+
   .home-content h1 {
       font-size: 30px;
       font-weight: 600;
   }
-  
+
   .home-content h3 {
       font-size: 20px;
       font-weight: 300;
   }
-  
+
   .home-content h4 {
       font-size: 15px;
       font-weight: 200;
   }
-  
+
   .home-content h4 span {
       font-size: 15px;
       font-weight: 200;
   }
+
   .btn-box:hover {
       box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
   }
-  .img{
+
+  .img {
       max-width: 300px;
+      max-height: 300px;
       position: relative;
-      left: -10%;
-      top: 2%;
-      padding-bottom: 30px;
+      left: 13%;
+      top: 5%;
+      padding-bottom: 0;
       padding-left: 0;
       margin-left: 0;
       margin-right: 0;
   }
+
+  .img img{
+      width:250px;
+      height: auto;
+  }
   
   /*about*/
-  .about{
+  .about {
       padding-bottom: 20px;
       min-height: auto;
   }
+
   .about-text h2 {
       font-size: 30px;
       letter-spacing: 5px;
   }
-  
+
   .about-text p {
       font-size: 15px;
       line-height: normal;
@@ -1196,43 +1231,52 @@ body {
       margin-bottom: 4rem;
       text-align: left;
   }
+
   .abtbtn-box:hover {
       box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
   }
 
   /*skills*/
-  .subtitle{
+  .subtitle {
       font-size: 50px;
       text-align: center;
   }
+
   .container1 {
       width: 600px;
       max-height: 500px;
       padding: 20px;
       margin-left: 50px;
   }
+
   .container2 {
       width: 600px;
       max-height: 500px;
       padding: 10px;
       margin-left: 0px;
   }
-  .radial-bar .text{
+
+  .radial-bar .text {
       left: 65%;
   }
-  .bar .info .addhtml::before{
+
+  .bar .info .addhtml::before {
       content: "90%";
   }
-  .bar .info .addcss::before{
+
+  .bar .info .addcss::before {
       content: "80%";
   }
-  .bar .info .addpy::before{
+
+  .bar .info .addpy::before {
       content: "75%";
   }
-  .bar .info .addjava::before{
+
+  .bar .info .addjava::before {
       content: "50%";
   }
-  .bar .info .addc::before{
+
+  .bar .info .addc::before {
       content: "80%";
   }
 
@@ -1242,10 +1286,12 @@ body {
       margin-top: 10px;
       padding-bottom: 50px;
   }
+
   .main-text h2 {
       font-size: 50px;
       padding-bottom: 15px;
   }
+
   .layer p {
       line-height: normal;
   }
@@ -1257,15 +1303,16 @@ body {
   }
 
   /*contact*/
-  .contacts h2{
+  .contacts h2 {
       font-size: 50px;
   }
-  .contact-list i{
+
+  .contact-list i {
       font-size: 13px;
       padding: 5px 5px 0 0;
   }
-  
-  .top{
+
+  .top {
       position: fixed;
       bottom: 2rem;
       left: 1rem;
@@ -1276,7 +1323,8 @@ body {
       opacity: 0;
       transition: all .4s;
   }
-  .top i{
+
+  .top i {
       color: #000;
   }
 }
